@@ -7,15 +7,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
+  margin: 100;
+  padding: 10;
+  background-color: #f8f9fa;
 }
 
 header {
-    background-color: #502c3d;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
@@ -59,7 +59,7 @@ form input, form textarea {
 
 button {
    padding: 10px;
-    background-color: #27AE60;
+    background-color: #aea027;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -67,13 +67,12 @@ button {
 }
 
 button:hover {
-    background-color: #219150;
+    background-color: hsl(323, 63%, 35%);
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
+  border-collapse: collapse;
 }
 
  th, td {
@@ -83,11 +82,11 @@ table {
   }
   
   th{
-    background-color: aqua;
+    background-color: rgb(0, 225, 255);
     color: #fff;
 }
 #formSuccess{
-    color: darkgreen;
+    color: #640039;
 }
 #chatContainer{
     display: flex;
